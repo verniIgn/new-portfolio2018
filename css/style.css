@@ -25,6 +25,7 @@ h3 {
 }
 
 
+
 /*===========================================
 				HOME
 =============================================*/
@@ -61,104 +62,92 @@ h3 {
     margin: 20px 0 20px 0;
 }
 
+
 /*===========================================
 				PARALLAX (Generic)
 =============================================*/
+
 .bg-parallax {
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 
+
 /*===========================================
 				BUTTONS (generic)
 =============================================*/
+
 .btn-general {
-	border-color: #fff;
-	border-width: 2px;
-	border-radius: 0;
-	padding: 12px 26px 12px 26px;
-	font-size: 16px;
-	font-weight: 400;
-	text-transform: uppercase; 
+    border-color: #fff;
+    border-width: 2px;
+    border-radius: 0;
+    padding: 12px 26px 12px 26px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .btn-white {
-	border-color: #fff;
-	color: #fff;
+    border-color: #fff;
+    color: #fff;
 }
 
-.btn-white:hover, 
+.btn-white:hover,
 .btn-white:focus {
-	background-color: #fff;
-	color: #41464b;
+    background-color: #fff;
+    color: #41464b;
 }
+
 
 
 /*===========================================
 				ANIMATIONS
 =============================================*/
+
 #home-cover,
 #home-heading,
 #home-btn {
-	animation-duration: .5s;
+    animation-duration: .5s;
 }
 
 #home-cover {
-	animation-delay: .1s;
+    animation-delay: .1s;
 }
+
 #home-heading {
-	animation-delay: .5s;
+    animation-delay: .5s;
 }
+
 #home-btn {
-	animation-delay: 1s;
+    animation-delay: 1s;
 }
 
 
-	
+/*===================================================
+				CONTENT FOR SERVICES (Generic)
+=====================================================*/
 
+.content-box {
+    padding: 60px 0 60px 0;
+}
 
+.content-title h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.content-title-underline {
+	width: 30px;
+	height: 3px;
+	background-color: #34c6d3;
+	/*centering the line using margin property*/
+	margin: 0 auto 30px auto;		
+}
 
 
 
