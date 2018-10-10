@@ -26,7 +26,6 @@ $(function() {
 		items: 3,
 		autoplay: true,
 		smartSpeed: 700,
-		loop: true,
-		navSpeed: 100
+		loop: true
 	});
 });

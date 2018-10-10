@@ -259,23 +259,34 @@ h3 {
 	padding-right: 0;
 }
 
-.img-wrapper {
-	overflow: hidden;
+
+/*===========================================
+					MY TEAM
+=============================================*/
+
+.team-member {
+	margin: 0 15px;
 }
 
-.img-wrapper img {
-	transition: transform .5s ease;
+.team-member-info {
+	padding: 10px 0 30px 0;
 }
 
-.img-wrapper img:hover {
-	transform: scale(1.5); /*increases or decreases the size of element*/
-	cursor: zoom-in;
+h4.team-member-name {
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding-top: 20px;
 }
 
-
-
-
-
+h4.team-member-designation {
+	color: #34c6d3;
+	font-size: 15px;
+	font-weight: 700;
+	font-style: italic;
+	letter-spacing: 1px;
+	margin-top: 5px;
+}
 
 
 
