@@ -19,3 +19,14 @@ $(function() {
   	}
   });
 });
+
+// TEAM SECTION
+$(function() {
+	$("#team-members").owlCarousel({
+		items: 3,
+		autoplay: true,
+		smartSpeed: 700,
+		loop: true,
+		navSpeed: 100
+	});
+});
