@@ -163,6 +163,10 @@ h3 {
     margin: 0 0 30px 0;
 }
 
+.content-title-white h3 {
+	color: #fff;
+}
+
 .content-title-underline {
     width: 30px;
     height: 3px;
@@ -319,11 +323,27 @@ h4.team-member-designation {
 }
 
 
+/*=================================================
+			TESTIMONIALS SECTION
+===================================================*/
 
+#testimonials-cover {
+	background-image: url("../img/bg-testimonials.jpg");
+}
 
+#testimonials .content-box {
+	background-color: rgb(0,0,0, 0.1);
+}
 
+#customers-testimonials {
+	padding: 50px 0;
+}
 
-
+.testimonial img {
+	max-width: 120px;
+	margin: 0 auto 0 auto; /*center align elem using margins*/
+}
+	
 
 
 
