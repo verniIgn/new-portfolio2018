@@ -288,9 +288,35 @@ h4.team-member-designation {
 	margin-top: 5px;
 }
 
+/*=================================================
+			SOCIAL ICONS (MY TEAM AND FOOTER)
+===================================================*/
 
+.social-list {
+	padding-left: 0;
+}
 
+.social-list li {
+	list-style: none; /*to remove bullets*/
+	display: inline-block; /*social icons now appear in line*/
+	width: 32px;
+	height: 32px;
+	margin-right: 6px;
+	margin-top: 10px;
+}
 
+.social-icon i {
+	font-size: 17px;
+}
+
+/*only for team section*/
+.icon-grey i {
+	color: #64707b;
+}
+
+.social-icon i:hover {
+	color: #34c6d3;
+}
 
 
 
