@@ -357,8 +357,26 @@ h4.team-member-designation {
 	color: #fff;
 }
 
+/*BEFORE AND AFTER SELECTORS*/
+.testimonial blockquote::before,
+.testimonial blockquote::after {
+	font-size: 80px;
+	font-style: normal;
+	line-height: 1;
+	width: 30px;
+	height: 30px;
+}
 
 
+/*inserting something BEFORE the content of an elem, in this case blockquote elem*/
+.testimonial blockquote::before {
+	content: "\201C";
+}
+
+/*inserting something AFTER the content of an elem, in this case blockquote elem*/
+.testimonial blockquote::after {
+	content: "\201D";
+}
 
 
 
