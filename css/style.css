@@ -350,6 +350,7 @@ h4.team-member-designation {
 	font-style: italic;
 	color: #fff;
 	padding: 6px 150px;
+	position: relative;
 }
 
 /*setup again because color prop above os not inherit to the p elem*/
@@ -365,21 +366,32 @@ h4.team-member-designation {
 	line-height: 1;
 	width: 30px;
 	height: 30px;
+	position: absolute;
 }
 
 
 /*inserting something BEFORE the content of an elem, in this case blockquote elem*/
 .testimonial blockquote::before {
 	content: "\201C";
+	top: 0;
+	left: 100px;
 }
 
 /*inserting something AFTER the content of an elem, in this case blockquote elem*/
 .testimonial blockquote::after {
 	content: "\201D";
+	bottom: 0;
+	right: 100px;		
 }
 
-
-
+.testimonial-author p {
+	color: white;
+	font-style: 17px;
+}
+ 
+.testimonial-author strong {
+	display: block;
+}
 
 
 
