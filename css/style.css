@@ -511,7 +511,8 @@ footer {
 	border-top: 5px solid rgb(0,0,0, 0.1); 
 }
 
-#contact-left h3 {
+#contact-left h3, 
+#contact-right h3 {
 	color: #fff;
 	font-size: 27px;
 	font-weight: 700;
@@ -537,6 +538,16 @@ address strong,
 	letter-spacing: 1px;
 }
 
+form .form-control {
+	background: transparent;
+	border-radius: 0;
+	border-color: #fff;
+	font-size: 17px;
+	font-weight: 300;
+	padding: 8px 16px;
+	margin-bottom: 20px;
+	color: #fff; 
+}
 
 
 
