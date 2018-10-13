@@ -326,7 +326,7 @@ h4.team-member-designation {
 
 
 /*=================================================
-			TESTIMONIALS SECTION
+				TESTIMONIALS SECTION
 ===================================================*/
 
 #testimonials-cover {
@@ -397,7 +397,7 @@ h4.team-member-designation {
 }
 
 /*=================================================
-			PRICING SECTION
+					PRICING SECTION
 ===================================================*/
 
 .pricing-box {
@@ -455,7 +455,7 @@ ul.pricing-spec li p {
 }
 
 /*=================================================
-			STATS SECTION
+					STATS SECTION
 ===================================================*/
 
 #stats-cover {
@@ -489,6 +489,13 @@ ul.pricing-spec li p {
 	margin-top: 0; /*this removes default margins applied by bootstrap*/
 }
 
+/*=================================================
+					CLIENTS SECTION
+===================================================*/
+
+.client {
+	padding: 40px 0;
+}
 
 
 
