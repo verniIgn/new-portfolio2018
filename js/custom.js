@@ -41,3 +41,11 @@ $(function() {
 		autoplayHoverPause: true
 	});
 });
+
+// STATS COUNTER
+$(function() {
+	$('.counter').counterUp({
+    	delay: 10,
+        time: 2000
+    });
+});

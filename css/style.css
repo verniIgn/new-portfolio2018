@@ -486,7 +486,7 @@ ul.pricing-spec li p {
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 300;
-	margin-top: 0; 
+	margin-top: 0; /*this removes default margins applied by bootstrap*/
 }
 
 
