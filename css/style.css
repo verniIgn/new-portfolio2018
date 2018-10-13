@@ -439,7 +439,20 @@ ul.pricing-spec li p {
 	text-transform: uppercase;
 }
 
+.pricing-box-lg {
+	padding: 90px 0px;
+	margin: 0;
+	background-color: #34c6d3; 
+}
 
+.pricing-box-lg h4.pricing-title {
+	color: #34c6d3;
+	background-color: #fff;
+}
+
+.pricing-box-lg ul.pricing-spec li p {
+	color: #fff;
+}
 
 
 
