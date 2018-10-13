@@ -49,3 +49,28 @@ $(function() {
         time: 2000
     });
 });
+
+
+// CLIENTS SECTION
+$(function() {
+	$("#clients-list").owlCarousel({
+		items: 6,
+		autoplay: true,
+		smartSpeed: 700,
+		loop: true,
+		autoplayHoverPause: true
+	});
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
