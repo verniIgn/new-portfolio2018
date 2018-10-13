@@ -164,7 +164,7 @@ h3 {
 }
 
 .content-title-white h3 {
-	color: #fff;
+    color: #fff;
 }
 
 .content-title-underline {
@@ -258,9 +258,9 @@ h3 {
 					MY WORK
 =============================================*/
 
-.row.no-gutters [class*=col-]{
-	padding-left: 0;
-	padding-right: 0;
+.row.no-gutters [class*=col-] {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 
@@ -269,27 +269,27 @@ h3 {
 =============================================*/
 
 .team-member {
-	margin: 0 15px;
+    margin: 0 15px;
 }
 
 .team-member-info {
-	padding: 10px 0 30px 0;
+    padding: 10px 0 30px 0;
 }
 
 h4.team-member-name {
-	font-size: 22px;
-	font-weight: 700;
-	letter-spacing: 1px;
-	padding-top: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 20px;
 }
 
 h4.team-member-designation {
-	color: #34c6d3;
-	font-size: 15px;
-	font-weight: 700;
-	font-style: italic;
-	letter-spacing: 1px;
-	margin-top: 5px;
+    color: #34c6d3;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-top: 5px;
 }
 
 /*=================================================
@@ -297,29 +297,31 @@ h4.team-member-designation {
 ===================================================*/
 
 .social-list {
-	padding-left: 0;
+    padding-left: 0;
 }
 
 .social-list li {
-	list-style: none; /*to remove bullets*/
-	display: inline-block; /*social icons now appear in line*/
-	width: 32px;
-	height: 32px;
-	margin-right: 6px;
-	margin-top: 10px;
+    list-style: none;
+    /*to remove bullets*/
+    display: inline-block;
+    /*social icons now appear in line*/
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    margin-top: 10px;
 }
 
 .social-icon i {
-	font-size: 17px;
+    font-size: 17px;
 }
 
 /*only for team section*/
 .icon-grey i {
-	color: #64707b;
+    color: #64707b;
 }
 
 .social-icon i:hover {
-	color: #34c6d3;
+    color: #34c6d3;
 }
 
 
@@ -328,78 +330,114 @@ h4.team-member-designation {
 ===================================================*/
 
 #testimonials-cover {
-	background-image: url("../img/bg-testimonials.jpg");
+    background-image: url("../img/bg-testimonials.jpg");
 }
 
 #testimonials .content-box {
-	background-color: rgb(0,0,0, 0.1);
+    background-color: rgb(0, 0, 0, 0.1);
 }
 
 #customers-testimonials {
-	padding: 50px 0;
+    padding: 50px 0;
 }
 
 .testimonial img {
-	max-width: 120px;
-	margin: 0 auto 0 auto; /*center align elem using margins*/
+    max-width: 120px;
+    margin: 0 auto 0 auto;
+    /*center align elem using margins*/
 }
-	
+
 .testimonial blockquote {
-	border: 0;
-	font-family: Georgia, sans-serif;
-	font-style: italic;
-	color: #fff;
-	padding: 6px 150px;
-	position: relative;
+    border: 0;
+    font-family: Georgia, sans-serif;
+    font-style: italic;
+    color: #fff;
+    padding: 6px 150px;
+    position: relative;
 }
 
 /*setup again because color prop above os not inherit to the p elem*/
 .testimonial blockquote p {
-	color: #fff;
+    color: #fff;
 }
 
 /*BEFORE AND AFTER SELECTORS*/
 .testimonial blockquote::before,
 .testimonial blockquote::after {
-	font-size: 80px;
-	font-style: normal;
-	line-height: 1;
-	width: 30px;
-	height: 30px;
-	position: absolute;
+    font-size: 80px;
+    font-style: normal;
+    line-height: 1;
+    width: 30px;
+    height: 30px;
+    position: absolute;
 }
 
 
 /*inserting something BEFORE the content of an elem, in this case blockquote elem*/
 .testimonial blockquote::before {
-	content: "\201C";
-	top: 0;
-	left: 100px;
+    content: "\201C";
+    top: 0;
+    left: 100px;
 }
 
 /*inserting something AFTER the content of an elem, in this case blockquote elem*/
 .testimonial blockquote::after {
-	content: "\201D";
-	bottom: 0;
-	right: 100px;		
+    content: "\201D";
+    bottom: 0;
+    right: 100px;
 }
 
 .testimonial-author p {
-	color: white;
-	font-style: 17px;
+    color: white;
+    font-style: 17px;
 }
- 
+
 .testimonial-author strong {
-	display: block;
+    display: block;
 }
 
+/*=================================================
+			PRICING SECTION
+===================================================*/
 
+.pricing-box {
+	border: 3px solid #34c6d3;
+	padding: 50px 0;
+	margin: 40px 0;
+}
 
+h4.pricing-title {
+	background-color: #34c6d3;
+	color: #fff;
+	display: inline-block;
+	padding: 7px 15px;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0 0 30px 0;
+}
 
+h3.pricing-value {
+	font-size: 60px;
+	font-weight: 700;
+}
 
+h3.pricing-value sup {
+	font-size: 28px;
+	font-weight: normal;
+	vertical-align: super;	
+}
 
+ul.pricing-spec {
+	list-style: none; /*removes dots from ul list*/
+	padding-left: 0;
+	margin: 20px 0 60px 0 ;		
+}
 
-
+ul.pricing-spec li p {
+	font-weight: 400;
+	text-transform: uppercase;
+}
 
 
 
