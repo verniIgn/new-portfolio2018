@@ -451,8 +451,76 @@ ul.pricing-spec li p {
 }
 
 .pricing-box-lg ul.pricing-spec li p {
-	color: #fff;
+	color: #fff;	
 }
+
+/*=================================================
+			STATS SECTION
+===================================================*/
+
+#stats-cover {
+	background-image: url("../img/bg-stats.jpg");
+}
+
+#stats .content-box {
+	background-color: rgb(0,0,0, .8);
+}
+
+.stats-item {
+	padding: 100px 0;
+}
+
+.stats-item i {
+	color: #34c6d3;
+}
+
+.stats-item h2 {
+	color: #fff;
+	font-size: 35px;
+	font-weight: 700;
+	margin-top: 15px;   /*this removes default margins applied by bootstrap*/
+	margin-bottom: 1px;   /*this removes default margins applied by bootstrap*/
+}
+
+.stats-item p {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-top: 0; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
