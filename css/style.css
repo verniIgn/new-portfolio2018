@@ -628,9 +628,24 @@ form .form-control {
 	color: #34c6d3;
 }
 
+.navbar-toggle {
+	background-color: rgba(0, 0, 0, 0.1);
+	border: 1px solid #fff;
+	border-radius: 0;
+}
 
+.navbar-toggle .icon-bar {
+	background-color: #fff; 
+}
 
+.navbar-collapse {
+	max-height: none !important;
+}
 
+/*bootstrap scrollspy*/
+.top-nav ul.navbar-nav > li.active > a {
+	color: #34c6d3;
+}
 
 
 
