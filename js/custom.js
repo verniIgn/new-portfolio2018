@@ -78,14 +78,14 @@ $(function() {
 
 //smooth scrolling
 $(function() {
-	$("a.smooth-scrool").click(function(event) {
+	$("a.smooth-scroll").click(function(event) {
 		event.preventDefault();
 		// this will get/return the value of any anchor elem that is clicked
 		var section = $(this).attr("href");
 
 		$("html, body").animate({
-			scrollTop: $(section).offset().top
-		}, 1250);
+			scrollTop: $(section).offset().top - 64
+		}, 1250, "easeInOutExpo");
 
 	});
 });
