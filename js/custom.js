@@ -62,6 +62,45 @@ $(function() {
 	});
 });
 
+// NAVBAR
+// this will hide or show navbar according to where we are in the site
+$(function() {
+	$(window).scroll(function() {
+		if($(this).scrollTop() < 50 ) {
+			// hide background color of navbar
+			$("nav").removeClass("top-nav");
+		} else {
+			// show background color of navbar
+			$("nav").addClass("top-nav");
+		}
+	});
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
