@@ -593,12 +593,26 @@ form .form-control {
 	color: #34c6d3;
 }
 
+/*=================================================
+					NAVBAR
+===================================================*/
 
+.navbar {
+	padding: 20px 0;
+}
 
+.top-nav {
+	background: rgba(0, 0, 0, 0.7);
+	padding: 7px 0px;
+}
 
+.nav-wrapper {
+	padding: 0 85px;
+}
 
-
-
+.navbar-nav {
+	float: right;
+}
 
 
 
