@@ -2,14 +2,31 @@
 
 /*LARGE DEVICES (Desktop & Laptops)*/
 @media (min-width: 1200px) {
-	#home-heading h3 {
-		color: blue;
-	}
+	
 }
 
 /*MEDIUM DEVICES (Landscape Tablets & Medium Desktops)*/
 @media (min-width: 992px) and (max-width: 1199px) {
-	#home-heading h3 {
-		color: yellow;
-	}
+	
+}
+
+
+/*SMALL DEVICES (Small Desktops)*/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+/*EXTRA SMALL DEVICES (Lanscape Phones & Portrait Tablets)*/
+@media (max-width: 767px) {
+	
+}
+
+/*EXTRA SMALL DEVICES (Smaller Devices)*/
+@media (max-width: 480px) {
+	
+}
+
+/*EXTRA SMALL DEVICES (Smaller Devices)*/
+@media (max-width: 320px) {
+	
 }
