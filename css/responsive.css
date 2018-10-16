@@ -2,12 +2,24 @@
 
 /*LARGE DEVICES (Desktop & Laptops)*/
 @media (min-width: 1200px) {
-	
+		/*OK*/
 }
 
 /*MEDIUM DEVICES (Landscape Tablets & Medium Desktops)*/
 @media (min-width: 992px) and (max-width: 1199px) {
-	
+
+	.navbar {
+		background: rgba(0, 0, 0, .7);
+		padding: 0;
+	}
+	.navbar-nav {
+		float: left;
+	}
+	.nav-wrapper {
+		padding: 0;
+	}
+
+
 }
 
 
