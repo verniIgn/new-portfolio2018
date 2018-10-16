@@ -1,0 +1,15 @@
+/*media queries based on Bootstrap grid system*/
+
+/*LARGE DEVICES (Desktop & Laptops)*/
+@media (min-width: 1200px) {
+	#home-heading h3 {
+		color: blue;
+	}
+}
+
+/*MEDIUM DEVICES (Landscape Tablets & Medium Desktops)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	#home-heading h3 {
+		color: yellow;
+	}
+}
