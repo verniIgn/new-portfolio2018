@@ -7,7 +7,8 @@
 
 /*MEDIUM DEVICES (Landscape Tablets & Medium Desktops)*/
 @media (min-width: 992px) and (max-width: 1199px) {
-
+	
+	/*mobile menu for medium devices*/
 	.navbar {
 		background: rgba(0, 0, 0, .7);
 		padding: 0;
@@ -16,12 +17,9 @@
 		float: left;
 	}
 	.nav-wrapper {
-		padding: 0;
+		padding: 0;	
 	}
-
-
 }
-
 
 /*SMALL DEVICES (Small Desktops)*/
 @media (min-width: 768px) and (max-width: 991px) {
