@@ -66,7 +66,72 @@
 
 /*EXTRA SMALL DEVICES (Lanscape Phones & Portrait Tablets)*/
 @media (max-width: 767px) {
+
+	/*mobile menu for extra-small devices*/
+	.navbar {
+		background: rgba(0, 0, 0, .7);
+		padding: 0;
+	}
+	.navbar-nav {
+		float: left;
+	}
+	.nav-wrapper {
+		padding: 0;	
+	}
 	
+	/*Home heading text size*/
+	#home-heading h3 {
+		font-size: 45px;
+	}
+
+	/*Buttons*/
+	.btn-general {
+		padding: 6px 22px 6px 22px;
+		font-size: 14px;
+	}
+
+	/*About me section - Removing diagonal border*/
+	#about-bg-diagonal {
+		border-left: 0;
+		border-top: 0;
+		width: 100%;
+		height: 350px;
+	}
+	#about-content-box {
+		width: 100%;
+		height: 350px;
+	}
+
+	/*work section - images*/
+	.img-wrapper img {
+		min-width: 100%;
+	}
+
+	/*testimonials section*/
+	.testimonial blockquote {
+		padding: 6px 50px;
+	}
+	.testimonial blockquote:before {
+		left: 10px;
+	}
+	.testimonial blockquote:after {
+		right: 10px;
+	}
+	.testimonial blockquote p {
+		font-size: 14px;
+	}
+
+	/*stats section - removing white spaces*/
+	.stats-item {
+		padding: 20px 0;
+	}
+
+	/*Footer section - text align*/
+	#footer-copyright {
+		text-align: center;
+	}
+
+
 }
 
 /*EXTRA SMALL DEVICES (Smaller Devices)*/
@@ -78,3 +143,29 @@
 @media (max-width: 320px) {
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
