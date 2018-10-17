@@ -130,13 +130,16 @@
 	#footer-copyright {
 		text-align: center;
 	}
-
-
 }
 
-/*EXTRA SMALL DEVICES (Smaller Devices)*/
+/*EXTRA SMALL DEVICES (Portrait Phones - Smaller Devices)*/
 @media (max-width: 480px) {
 	
+	/*Home heading text size*/
+	#home-heading h3 {
+		font-size: 35px;
+	}
+
 }
 
 /*EXTRA SMALL DEVICES (Smaller Devices)*/
