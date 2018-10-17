@@ -2,7 +2,9 @@
 
 /*LARGE DEVICES (Desktop & Laptops)*/
 @media (min-width: 1200px) {
+
 		/*OK*/
+
 }
 
 /*MEDIUM DEVICES (Landscape Tablets & Medium Desktops)*/
@@ -19,11 +21,47 @@
 	.nav-wrapper {
 		padding: 0;	
 	}
+
 }
 
 /*SMALL DEVICES (Small Desktops)*/
 @media (min-width: 768px) and (max-width: 991px) {
 	
+	/*mobile menu for small devices*/
+	.navbar {
+		background: rgba(0, 0, 0, .7);
+		padding: 0;
+	}
+	.navbar-nav {
+		float: left;
+	}
+	.nav-wrapper {
+		padding: 0;	
+	}
+
+	/*About me section - Removing diagonal border*/
+	#about-bg-diagonal {
+		border-left: 0;
+		border-top: 0;
+		width: 100%;
+		height: 350px;
+	}
+
+	#about-content-box {
+		width: 100%;
+		height: 350px;
+	}
+	
+	/*stats section - removing white spaces*/
+	.stats-item {
+		padding: 20px 0;
+	}
+
+	/*Footer section - text align*/
+	#footer-copyright {
+		text-align: center;
+	}
+
 }
 
 /*EXTRA SMALL DEVICES (Lanscape Phones & Portrait Tablets)*/
