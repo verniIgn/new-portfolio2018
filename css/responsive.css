@@ -145,6 +145,40 @@
 /*EXTRA SMALL DEVICES (Smaller Devices)*/
 @media (max-width: 320px) {
 	
+	/*services section -- icon size*/
+	.service-item-icon i {
+		width: 58px;
+		height: 58px;
+		padding: 7px;
+	}
+	.service-item-title h3 {
+		font-size: 17px;
+	}
+
+	/*about me title*/
+	#about-content-box {
+		margin-top: 40px;
+	}
+
+	/*testimonials section*/
+	.testimonial img {
+		max-width: 80px;
+	}
+
+	.testimonial blockquote {
+		padding: 6px 30px;
+	}
+	.testimonial blockquote:before {
+		left: 7px;
+	}
+	.testimonial blockquote:after {
+		right: 7px;
+	}
+	/*.testimonial blockquote p {
+		font-size: 14px;
+	}*/
+
+
 }
 
 
