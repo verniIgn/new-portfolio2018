@@ -5,7 +5,6 @@
 
 =============================================*/
 
-
 /*GENERAL CSS*/
 
 html,
@@ -63,8 +62,6 @@ h3 {
     margin: 20px 0 20px 0;
 }
 
-
-
 /*===========================================
 				PARALLAX (Generic)
 =============================================*/
@@ -120,7 +117,6 @@ h3 {
 	padding: 3px 15px;
 	border-radius: 0;
 	display: none;
-
 } 	
 
 /*===========================================
@@ -144,7 +140,6 @@ h3 {
 #home-btn {
     animation-delay: 1s;
 }
-
 
 /*===================================================
 				CONTENT FOR SERVICES (Generic)
@@ -172,7 +167,6 @@ h3 {
     /*centering the line using margin property*/
     margin: 0 auto 30px auto;
 }
-
 
 /*===================================================
 						SERVICES
@@ -209,7 +203,6 @@ h3 {
     margin: 0;
     padding-left: 85px;
 }
-
 
 /*===========================================
 					ABOUT
@@ -259,6 +252,20 @@ h3 {
 .row.no-gutters [class*=col-] {
     padding-left: 0;
     padding-right: 0;
+}
+
+/*hidding overflow of images*/
+.img-wrapper {
+	overflow: hidden;
+}
+
+.img-wrapper img {
+	transition: transform .5s ease; 
+}
+
+/*zoom effect on imgs*/
+.img-wrapper img:hover {
+	transform: scale(1.5);
 }
 
 
@@ -326,7 +333,6 @@ h4.team-member-designation {
     color: #34c6d3;
 }
 
-
 /*=================================================
 				TESTIMONIALS SECTION
 ===================================================*/
@@ -336,7 +342,7 @@ h4.team-member-designation {
 }
 
 #testimonials .content-box {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, .1);
 }
 
 #customers-testimonials {
@@ -391,7 +397,7 @@ h4.team-member-designation {
 
 .testimonial-author p {
     color: white;
-    font-style: 17px;
+    font-size: 17px;
 }
 
 .testimonial-author strong {
@@ -506,7 +512,7 @@ ul.pricing-spec li p {
 footer {
 	background-color: #41464b;
 	padding-top: 30px;
-	border-top: 5px solid rgba(0,0,0, 0.1); 
+	border-top: 5px solid rgb(0,0,0, 0.1); 
 }
 
 #contact-left h3, 
