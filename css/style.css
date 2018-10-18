@@ -336,7 +336,7 @@ h4.team-member-designation {
 }
 
 #testimonials .content-box {
-    background-color: rgb(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 #customers-testimonials {
@@ -506,7 +506,7 @@ ul.pricing-spec li p {
 footer {
 	background-color: #41464b;
 	padding-top: 30px;
-	border-top: 5px solid rgb(0,0,0, 0.1); 
+	border-top: 5px solid rgba(0,0,0, 0.1); 
 }
 
 #contact-left h3, 
@@ -530,7 +530,9 @@ footer {
 address {
 	color: #fff;
 }
-
+address strong {
+	font-size: 16px;
+}
 address strong, 
 #phone-fax-email strong  {
 	letter-spacing: 1px;
