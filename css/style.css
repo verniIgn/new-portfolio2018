@@ -629,7 +629,8 @@ form .form-control {
 }
 
 .navbar-nav {
-	float: right;
+     display: inline-block;
+    float: none;
 }
 
 .navbar-nav > li > a {
@@ -658,6 +659,8 @@ form .form-control {
 
 .navbar-collapse {
 	max-height: none !important;
+    text-align: center;
+
 }
 
 /*bootstrap scrollspy*/
