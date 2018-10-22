@@ -7,19 +7,6 @@ $(function() {
     new WOW().init();
 });
 
-// WORK SECTION
-
-//Activating magnific-popup pluggin
-// $(function() {
-//     $("#work").magnificPopup({
-//         delegate: 'a', // child items selector, by clicking on it popup will open
-//         type: 'image',
-//         gallery: {
-//             enabled: true
-//         }
-//     });
-// });
-
 // TEAM SECTION
 $(function() {
     $("#team-members").owlCarousel({
