@@ -199,13 +199,13 @@ h3 {
 .service-item-title h3 {
     font-size: 20px;
     font-weight: 400;
-    margin: 0 0 10px 0;
+    /*margin: 0 0 10px 0;*/
 }
 
-.service-item-desc p {
+/*.service-item-desc p {
     margin: 0;
     padding-left: 85px;
-}
+}*/
 
 /*===========================================
 					ABOUT
@@ -215,7 +215,7 @@ h3 {
     width: 60%;
     height: 700px;
     float: right;
-    background-image: url("../img/bg-about.jpg");
+    background-image: url("../img/me2.jpg");
     border-left: 200px solid #fff;
     border-top: 700px solid transparent;
 }
@@ -667,45 +667,3 @@ form .form-control {
 .top-nav ul.navbar-nav > li.active > a {
 	color: #34c6d3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -10,15 +10,15 @@ $(function() {
 // WORK SECTION
 
 //Activating magnific-popup pluggin
-$(function() {
-    $("#work").magnificPopup({
-        delegate: 'a', // child items selector, by clicking on it popup will open
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-    });
-});
+// $(function() {
+//     $("#work").magnificPopup({
+//         delegate: 'a', // child items selector, by clicking on it popup will open
+//         type: 'image',
+//         gallery: {
+//             enabled: true
+//         }
+//     });
+// });
 
 // TEAM SECTION
 $(function() {
@@ -129,49 +129,3 @@ $(function() {
         $(".navbar-toggle").click();
     });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
